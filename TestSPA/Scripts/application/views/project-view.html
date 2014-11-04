@@ -1,0 +1,64 @@
+﻿<div>Status: {{status}}</div>
+
+<h1>project: {{project.Name}}</h1>
+<p>starts on: {{project.From}}</p>
+<p>end on: {{project.To}}</p>
+
+<form class="form-horizontal" role="form">
+    <div class="row">
+        <div class="form-group">
+            <label for="textName" class="col-sm-2 control-label">{{view.Fields.Name.Caption}}</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="textName" placeholder="enter project name" ng-model="project.Name" />
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="form-group">
+            <label for="textStatus" class="col-sm-2 control-label">{{view.Fields.Status.Caption}}</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="textStatus" placeholder="enter project status" ng-model="project.Status" />
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group">
+            <label for="selectCustomer" class="col-sm-2 control-label">{{view.Fields.Customer.Caption}}</label>
+            <div class="col-sm-10">
+                <lookup id="selectCustomer" placeholder="Search for a customer" style="width: 100%" min-input-length="0" query="lookupCustomers" value="project.Customer">
+                </lookup>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="form-group">
+            <label for="dateStartDate" class="col-sm-2 control-label">Start date:</label>
+            <div class="col-sm-10">
+                <div class="input-group date" value="project.Start">
+                    {{project.To}}
+                    <input id="dateStartDate" type="text" class="form-control">
+                    <span class="input-group-addon"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="form-group">
+            <label for="dateEndDate" class="col-sm-2 control-label">End date:</label>
+            <div class="col-sm-10">
+                <div class="input-group date" value="project.End">
+                    <input id="dateEndDate" type="text" class="form-control">
+                    <span class="input-group-addon"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

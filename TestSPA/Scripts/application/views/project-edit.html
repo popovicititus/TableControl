@@ -1,0 +1,247 @@
+﻿<div>Status: {{status}}</div>
+
+<h1>project: {{project.Name}}</h1>
+
+
+<form class="form-horizontal" role="form">
+
+    <div class="row">
+
+        <div class="form-group">
+            <label for="textName" class="col-sm-2 control-label">{{view.Fields.Name.Caption}}</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="textName" placeholder="enter project name" ng-model="project.Name" />
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="form-group">
+            <label for="textStatus" class="col-sm-2 control-label">{{view.Fields.Status.Caption}}</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="textStatus" placeholder="enter project status" ng-model="project.Status" />
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="form-group">
+            <label for="selectCustomer" class="col-sm-2 control-label">{{view.Fields.Customer.Caption}}</label>
+            <div class="col-sm-10">
+                <lookup id="selectCustomer" placeholder="Search for a customer" style="width: 100%" min-input-length="0" query="lookupCustomers" value="project.Customer">
+                </lookup>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="form-group">
+            <label for="dateStartDate" class="col-sm-2 control-label">Start date:</label>
+            <div class="col-sm-10">
+                <div class="input-group date" date-picker value="project.Start">
+                    <input id="dateStartDate" type="text" class="form-control">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="form-group">
+            <label for="dateEndDate" class="col-sm-2 control-label">End date:</label>
+            <div class="col-sm-10">
+                <div class="input-group date" date-picker value="project.End">
+                    <input id="dateEndDate" type="text" class="form-control">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="form-group">
+            <div class="col-sm-10 col-lg-offset-2">
+                <div class="input-group date">
+                    <input ng-click="update()" type="button" class="form-control btn btn-default" value="Update">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---->
+    <!--	<!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<label class="col-sm-2 control-label">Static 1:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<p class="form-control-static">static text 1</p>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<label class="col-sm-2 control-label">Static 2:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<p class="form-control-static">static text 2</p>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<label for="inputText1" class="col-sm-2 control-label">Text 1:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<input type="text" class="form-control" id="inputText1" placeholder="Text" />-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group has-error col-sm-6">-->
+    <!--					<label for="inputText2" class="col-sm-2 control-label">Text 2:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<input type="text" class="form-control" id="inputText2" placeholder="Text" />-->
+    <!--						<span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<label for="textArea1" class="col-sm-3 control-label">Text area 1:</label>-->
+    <!--					<div class="col-sm-9">-->
+    <!--						<textarea rows="3" class="form-control" id="textArea1" placeholder="Text"></textarea>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group has-error col-sm-6">-->
+    <!--					<label for="textArea2" class="col-sm-3 control-label">Text area 2:</label>-->
+    <!--					<div class="col-sm-9">-->
+    <!--						<textarea rows="3" class="form-control" id="textArea2" placeholder="Text"></textarea>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<div class="col-sm-offset-2 col-sm-10">-->
+    <!--						<div class="checkbox">-->
+    <!--							<label>-->
+    <!--								<input type="checkbox" />Checkbox-->
+    <!--							</label>-->
+    <!--						</div>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group has-error col-sm-6">-->
+    <!--					<div class="col-sm-offset-2 col-sm-10">-->
+    <!--						<div class="checkbox">-->
+    <!--							<label>-->
+    <!--								<input type="checkbox" />Another Checkbox-->
+    <!--							</label>-->
+    <!--						</div>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<div class="col-sm-offset-2 col-sm-10">-->
+    <!--						<div class="radio">-->
+    <!--							<label>-->
+    <!--								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Radio option one-->
+    <!--							</label>-->
+    <!--						</div>-->
+    <!--						<div class="radio">-->
+    <!--							<label>-->
+    <!--								<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Radio option two-->
+    <!--							</label>-->
+    <!--						</div>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group has-error col-sm-6">-->
+    <!--					<div class="col-sm-offset-2 col-sm-10">-->
+    <!--						<div class="radio">-->
+    <!--							<label>-->
+    <!--								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Radio option one-->
+    <!--							</label>-->
+    <!--						</div>-->
+    <!--						<div class="radio">-->
+    <!--							<label>-->
+    <!--								<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Radio option two-->
+    <!--							</label>-->
+    <!--						</div>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<label for="select1" class="col-sm-2 control-label">Select 1:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<select id="select1" simple-select style="line-height: 50px">-->
+    <!--							<option>option 1</option>-->
+    <!--							<option>option 2</option>-->
+    <!--							<option>option 3</option>-->
+    <!--							<option>option 4</option>-->
+    <!--							<option>option 5</option>-->
+    <!--						</select>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group has-error col-sm-6">-->
+    <!--					<label for="select2" class="col-sm-2 control-label">Select 2:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<select id="select2" class="form-control">-->
+    <!--							<option>option 1</option>-->
+    <!--							<option>option 2</option>-->
+    <!--							<option>option 3</option>-->
+    <!--							<option>option 4</option>-->
+    <!--							<option>option 5</option>-->
+    <!--						</select>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!---->
+    <!--			<div class="row">-->
+    <!---->
+    <!--				<div class="form-group col-sm-6">-->
+    <!--					<label for="select1" class="col-sm-2 control-label">Date 1:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<div class="input-group date" date-picker>-->
+    <!--							<input type="text" class="form-control">-->
+    <!--							<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>-->
+    <!--						</div>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--				<div class="form-group has-error col-sm-6">-->
+    <!--					<label for="select2" class="col-sm-2 control-label">Date 2:</label>-->
+    <!--					<div class="col-sm-10">-->
+    <!--						<div class="input-group date" date-picker>-->
+    <!--							<input type="text" class="form-control">-->
+    <!--							<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>-->
+    <!--						</div>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!---->
+    <!--			</div>-->
+    <!--		-->
+
+
+</form>

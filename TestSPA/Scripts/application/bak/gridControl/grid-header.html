@@ -1,0 +1,62 @@
+﻿<div class="btn-toolbar" role="toolbar">
+    <div class="btn-group">
+        <button ng-click="new()" type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> New</button>
+        <button ng-click="delete()" type="button" class="btn btn-default" ng-class="selector.Selected > 0 ? '' : 'disabled'"><span class="glyphicon glyphicon-remove"></span> Delete</button>
+        <button ng-click="edit()" type="button" class="btn btn-default" ng-class="selector.Selected == 1 ? '' : 'disabled'"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+    </div>
+
+    <div class="btn-group">
+        <button ng-click="refresh()" type="button" class="btn btn-default" ng-class="isLoading ? 'disabled' : ''"><span class="glyphicon glyphicon-refresh"></span> Refresh</button>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-flash"></span>&nbsp;Action
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li ng-click="select_all()"><a href="">Select All</a></li>
+            <li ng-click="unselect_all()"><a href="">Deselect All</a></li>
+            <li class="divider"></li>
+            <li ng-click="" ng-class="selector.Selected == 1 ? '' : 'disabled'"><a href="">Action One (one selected record)</a></li>
+            <li ng-click="" ng-class="selector.Selected > 0 ? '' : 'disabled'"><a href="">Action Two (at least one selected record)</a></li>
+            <li ng-click="" ng-class="rowCount > 0 ? '' : 'disabled'"><a href="">Action Three (at least one record in list)</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> Export</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">CSV File</a></li>
+            <li><a href="#">Excel File</a></li>
+            <li><a href="#">PDF File</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-eye-open"></span>&nbsp;{{currentView.Caption}}
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li ng-repeat="view in views" ng-click="select_view(view)"><a href="">{{view.Caption}}</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <div class="input-group">
+            
+            <div class="input-group">
+                <input type="text" ng-model="searchText" ng-keypress="search_keypress($event)" class="form-control" placeholder="search projects...">
+                <span class="input-group-btn">
+                    <button type="button" ng-click="search()" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div><!-- /input-group -->
+        </div>
+    </div>
+
+</div>

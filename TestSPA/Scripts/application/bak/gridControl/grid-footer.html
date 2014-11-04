@@ -1,0 +1,27 @@
+﻿<div class="row">
+    <div class="col-md-3">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                {{pager.PageSize}}
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li ng-repeat="size in pager.PageSizeData" ng-click="page_size(size)"><a href="">{{size}}</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div style="padding: 0px">Showing {{record_from()}} to {{record_to()}} of {{rowCount}} entries. {{selector.Selected}} entries selected.<br />Filter is {{filter == null ? 'empty' : '\'' + filter + '\''}}.</div>
+    </div>
+    <div class="col-md-6">
+        <div class="text-right">
+            <ul class="pagination" style="margin: 0">
+                <li ng-click="first_page()" ng-class="pager.CanPrev() ? '' : 'disabled'"><a href=""><span class="glyphicon glyphicon-step-backward"></span></a></li>
+                <li ng-click="prev_page()" ng-class="pager.CanPrev() ? '' : 'disabled'"><a href=""><span class="glyphicon glyphicon glyphicon-backward"></span></a></li>
+                <li ng-repeat="pg in pager.PagesData" ng-click="page(pg)" class="{{pg == $parent.pager.CurrentPage ? 'active' : ''}}"><a href="">{{pg + 1}}</a></li>
+                <li ng-click="next_page()" ng-class="pager.CanNext() ? '' : 'disabled'"><a href=""><span class="glyphicon glyphicon glyphicon-forward"></span></a></li>
+                <li ng-click="last_page()" ng-class="pager.CanNext() ? '' : 'disabled'"><a href=""><span class="glyphicon glyphicon glyphicon-step-forward"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>

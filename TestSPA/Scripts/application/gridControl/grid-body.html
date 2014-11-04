@@ -1,0 +1,18 @@
+﻿<div class="table-responsive">
+    <table class="table table-condensed table-striped table-hover tablesorter">
+        <thead>
+            <tr>
+                <th class="grid-th-selection">#</th>
+                <th ng-repeat="field in currentView.Fields" ng-click="sort_field(field)" ng-class="field.SortIndex == -1 ? '' : (field.SortOrder == 'asc' ? 'headerSortAsc' : 'headerSortDesc')" class="headerSort">{{field.Caption}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="project in projects">
+                <td>
+                    <input type="checkbox" ng-model="project.Selected" ng-change="selection_change()" />
+                </td>
+                <td ng-repeat="field in currentView.Fields" ng-bind-html="display_field(project, field)"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
