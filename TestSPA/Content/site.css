@@ -1,0 +1,24 @@
+﻿body {
+}
+
+/* data grid */
+th.grid-th-selection {
+	width: 1em;
+}
+
+table.tablesorter thead tr .headerSort {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter thead tr .headerSortAsc {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDesc {
+	background-image: url(desc.gif);
+}
+
+td span.highlight {
+	background-color: yellow;
+}

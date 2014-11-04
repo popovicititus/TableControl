@@ -1,0 +1,154 @@
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\TestSPA.dll.config
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\TestSPA.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\TestSPA.pdb
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Antlr3.Runtime.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Breeze.ContextProvider.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Breeze.WebApi2.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\EntityFramework.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\EntityFramework.SqlServer.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Microsoft.Data.Edm.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Microsoft.Data.OData.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Newtonsoft.Json.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Net.Http.Formatting.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Spatial.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Helpers.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Http.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Http.OData.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Http.WebHost.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Mvc.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Optimization.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Razor.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.WebPages.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.WebPages.Razor.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\TestSPA.Data.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\WebActivator.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\WebGrease.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\TestSPA.Data.pdb
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\EntityFramework.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\EntityFramework.SqlServer.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Microsoft.Data.Edm.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Microsoft.Data.OData.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Spatial.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Http.OData.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Helpers.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Mvc.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Optimization.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Razor.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.WebPages.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.WebPages.Razor.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Newtonsoft.Json.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\Antlr3.Runtime.pdb
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Net.Http.Formatting.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Http.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\System.Web.Http.WebHost.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\de\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\es\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\fr\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\it\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ja\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ko\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\ru\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\obj\Debug\TestSPA.csprojResolveAssemblyReference.cache
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\obj\Debug\TestSPA.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA\obj\Debug\TestSPA.pdb
+D:\work\tableControl\TestSPA\bin\TestSPA.dll.config
+D:\work\tableControl\TestSPA\bin\TestSPA.dll
+D:\work\tableControl\TestSPA\bin\TestSPA.pdb
+D:\work\tableControl\TestSPA\bin\Antlr3.Runtime.dll
+D:\work\tableControl\TestSPA\bin\Breeze.ContextProvider.dll
+D:\work\tableControl\TestSPA\bin\Breeze.ContextProvider.EF6.dll
+D:\work\tableControl\TestSPA\bin\Breeze.WebApi2.dll
+D:\work\tableControl\TestSPA\bin\EntityFramework.dll
+D:\work\tableControl\TestSPA\bin\EntityFramework.SqlServer.dll
+D:\work\tableControl\TestSPA\bin\Microsoft.Data.Edm.dll
+D:\work\tableControl\TestSPA\bin\Microsoft.Data.OData.dll
+D:\work\tableControl\TestSPA\bin\Microsoft.Web.Infrastructure.dll
+D:\work\tableControl\TestSPA\bin\Newtonsoft.Json.dll
+D:\work\tableControl\TestSPA\bin\System.Net.Http.Formatting.dll
+D:\work\tableControl\TestSPA\bin\System.Spatial.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Helpers.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Http.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Http.OData.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Http.WebHost.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Mvc.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Optimization.dll
+D:\work\tableControl\TestSPA\bin\System.Web.Razor.dll
+D:\work\tableControl\TestSPA\bin\System.Web.WebPages.Deployment.dll
+D:\work\tableControl\TestSPA\bin\System.Web.WebPages.dll
+D:\work\tableControl\TestSPA\bin\System.Web.WebPages.Razor.dll
+D:\work\tableControl\TestSPA\bin\TestSPA.Data.dll
+D:\work\tableControl\TestSPA\bin\WebActivator.dll
+D:\work\tableControl\TestSPA\bin\WebGrease.dll
+D:\work\tableControl\TestSPA\bin\TestSPA.Data.pdb
+D:\work\tableControl\TestSPA\bin\EntityFramework.xml
+D:\work\tableControl\TestSPA\bin\EntityFramework.SqlServer.xml
+D:\work\tableControl\TestSPA\bin\Microsoft.Data.Edm.xml
+D:\work\tableControl\TestSPA\bin\Microsoft.Data.OData.xml
+D:\work\tableControl\TestSPA\bin\System.Spatial.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Http.OData.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Helpers.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Mvc.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Optimization.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Razor.xml
+D:\work\tableControl\TestSPA\bin\System.Web.WebPages.xml
+D:\work\tableControl\TestSPA\bin\System.Web.WebPages.Deployment.xml
+D:\work\tableControl\TestSPA\bin\System.Web.WebPages.Razor.xml
+D:\work\tableControl\TestSPA\bin\Newtonsoft.Json.xml
+D:\work\tableControl\TestSPA\bin\Antlr3.Runtime.pdb
+D:\work\tableControl\TestSPA\bin\System.Net.Http.Formatting.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Http.xml
+D:\work\tableControl\TestSPA\bin\System.Web.Http.WebHost.xml
+D:\work\tableControl\TestSPA\bin\de\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\es\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\it\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\work\tableControl\TestSPA\bin\de\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\es\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\fr\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\it\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\ja\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\ko\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\ru\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\work\tableControl\TestSPA\bin\de\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\es\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\fr\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\it\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\ja\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\ko\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\ru\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\zh-Hans\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\bin\zh-Hant\System.Spatial.resources.dll
+D:\work\tableControl\TestSPA\obj\Debug\TestSPA.csprojResolveAssemblyReference.cache
+D:\work\tableControl\TestSPA\obj\Debug\TestSPA.dll
+D:\work\tableControl\TestSPA\obj\Debug\TestSPA.pdb

@@ -1,0 +1,20 @@
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\TestSPA.Data.dll.config
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\TestSPA.Data.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\TestSPA.Data.pdb
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\EntityFramework.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\EntityFramework.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\obj\Debug\TestSPA.Data.csprojResolveAssemblyReference.cache
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\obj\Debug\TestSPA.Data.dll
+C:\Users\ovidiu.negus\Documents\Visual Studio 2013\Projects\TestSPA\TestSPA.Data\obj\Debug\TestSPA.Data.pdb
+D:\work\tableControl\TestSPA.Data\bin\Debug\TestSPA.Data.dll.config
+D:\work\tableControl\TestSPA.Data\bin\Debug\TestSPA.Data.dll
+D:\work\tableControl\TestSPA.Data\bin\Debug\TestSPA.Data.pdb
+D:\work\tableControl\TestSPA.Data\bin\Debug\EntityFramework.dll
+D:\work\tableControl\TestSPA.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\tableControl\TestSPA.Data\bin\Debug\EntityFramework.xml
+D:\work\tableControl\TestSPA.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\tableControl\TestSPA.Data\obj\Debug\TestSPA.Data.csprojResolveAssemblyReference.cache
+D:\work\tableControl\TestSPA.Data\obj\Debug\TestSPA.Data.dll
+D:\work\tableControl\TestSPA.Data\obj\Debug\TestSPA.Data.pdb

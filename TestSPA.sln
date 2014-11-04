@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSPA", "TestSPA\TestSPA.csproj", "{92B8D45A-2D61-4D63-B424-909330EB889A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSPA.Data", "TestSPA.Data\TestSPA.Data.csproj", "{26BDD7C1-280D-4B88-90C4-10DC3E173F15}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://neguso.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TestSPA\\TestSPA.csproj
+		SccProjectName1 = TestSPA
+		SccLocalPath1 = TestSPA
+		SccProjectUniqueName2 = TestSPA.Data\\TestSPA.Data.csproj
+		SccProjectName2 = TestSPA.Data
+		SccLocalPath2 = TestSPA.Data
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92B8D45A-2D61-4D63-B424-909330EB889A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B8D45A-2D61-4D63-B424-909330EB889A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B8D45A-2D61-4D63-B424-909330EB889A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B8D45A-2D61-4D63-B424-909330EB889A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BDD7C1-280D-4B88-90C4-10DC3E173F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BDD7C1-280D-4B88-90C4-10DC3E173F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BDD7C1-280D-4B88-90C4-10DC3E173F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BDD7C1-280D-4B88-90C4-10DC3E173F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

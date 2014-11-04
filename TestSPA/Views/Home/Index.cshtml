@@ -1,0 +1,24 @@
+﻿@model TestSPA.Models.HomeModel
+
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model.Title</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="container">
+
+        Version: {{'v%VERSION%' | interpolate}}
+        <div ng-view></div>
+
+    </div>
+
+    @Scripts.Render("~/Bundles/jquery")
+    @Scripts.Render("~/Bundles/bootstrap")
+    @Scripts.Render("~/Bundles/angular")
+    @Scripts.Render("~/Bundles/app")
+</body>
+</html>
